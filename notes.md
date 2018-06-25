@@ -3,3 +3,9 @@ modify line 89: vendor/laravel/framework/src/Illuminate/Foundation/Console/Serve
 
 `89             ['port', null, InputOption::VALUE_OPTIONAL, 'The port to serve the application on.', 8888],`
 
+#To Run:
+
+php artisan serve &
+
+or more complex:  nohup php artisan serve --daemon &
+
